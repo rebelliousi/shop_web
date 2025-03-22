@@ -60,10 +60,7 @@ const Navbar: React.FC = () => {
         }, 200);
     };
 
-    const handleLanguageClick = () => {
-        setIsLanguageDropdownVisible(!isLanguageDropdownVisible);
-    };
-
+   
     // Mobile menu
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
